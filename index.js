@@ -8,7 +8,7 @@
 // console.log(count)
 
 let myAge = 18
-let humanDogRatio = 7
+let humanDogRatio = 7 
 
 let myDogAge = myAge*humanDogRatio
 
