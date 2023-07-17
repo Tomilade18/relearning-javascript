@@ -1,15 +1,11 @@
-//document.getElementById("count-el").innerText = 5
+// document.getElementId("count").innerText = 5
+let count = 5
 
-// let firstBatch = 5
-// let secondBatch = 7
+// count + 1
+count = count + 1
 
-// let count = firstBatch + secondBatch
+count = count + 10
 
-// console.log(count)
+count = count - 2
 
-let myAge = 18
-let humanDogRatio = 7 
-
-let myDogAge = myAge*humanDogRatio
-
-console.log(myDogAge)
+console.log(count)
