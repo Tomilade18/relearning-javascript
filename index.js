@@ -1,6 +1,10 @@
-function time(lap1,lap2,lap3) {
-let totalTime = lap1 + lap2 + lap3
-console.log(totalTime)
+let lapsCompleted = 0
+
+function incrementLap() {
+    lapsCompleted = lapsCompleted + 1
+    console.log(lapsCompleted)
 }
 
-time(34,33,36)
+incrementLap()
+incrementLap()
+
