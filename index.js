@@ -1,10 +1,14 @@
-let lapsCompleted = 0
+let countEl = document.getElementById("count-el")
+console.log(countEl)
 
-function incrementLap() {
-    lapsCompleted = lapsCompleted + 1
-    console.log(lapsCompleted)
+let count = 0
+
+function increment() {
+    count = count + 1
+    countEl.innerText = count 
 }
 
-incrementLap()
-incrementLap()
+function save() {
+    console.log(count)
+}
 
